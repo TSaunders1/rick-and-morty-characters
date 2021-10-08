@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+<h1 align="center">Rick and Morty Characters</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> This application utilises the Rick and Morty API to render information about the characters. 
+    <br> 
+</p>
 
-## Available Scripts
+## 📝 Table of Contents
 
-In the project directory, you can run:
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Built Using](#built_using)
+- [Authors](#authors)
 
-### `yarn start`
+## 🧐 About <a name = "about"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This application utilises the Rick and Morty API to render information about the characters. The site allows the user to filter the characters based on character name, status, gender and species. This is accomplished using GraphQL to query the API based on the user inputs.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+On page load, an graphql query is made to get all characters from the API.
 
-### `yarn test`
+Once the user clicks ‘Search’ from the filters, the query is recalled with the updated state to render the characters corresponding to the user inputs. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The graphql query returns a maximum of 20 characters at a time. Therefore, when greater than 20 characters meet the user inputs, a button ‘Load next’ is rendered and when clicked concatenates the next 20 characters to data returned from the original call. 
 
-### `yarn build`
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone this GitHub repo and run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+yarn
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+to install the node modules. Then run:
 
-### `yarn eject`
+```
+yarn start
+```
+and open http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Running the tests <a name = "tests"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Unit testing is included in the project using Jest.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To launch the test runner:
 
-## Learn More
+```
+yarn test
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⛏️ Built Using <a name = "built_using"></a>
 
-### Code Splitting
+- Styled-components
+- React-hook-form
+- Apollo client
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ✍️ Authors <a name = "authors"></a>
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [@TSaunders1](https://github.com/TSaunders1/)
