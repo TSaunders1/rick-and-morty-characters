@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/rick-and-morty-characters/static/css/main.4a4137e4.chunk.css",
+    "main.js": "/rick-and-morty-characters/static/js/main.d1121f8e.chunk.js",
+    "main.js.map": "/rick-and-morty-characters/static/js/main.d1121f8e.chunk.js.map",
+    "runtime-main.js": "/rick-and-morty-characters/static/js/runtime-main.04d9518c.js",
+    "runtime-main.js.map": "/rick-and-morty-characters/static/js/runtime-main.04d9518c.js.map",
+    "static/js/2.56c0c59b.chunk.js": "/rick-and-morty-characters/static/js/2.56c0c59b.chunk.js",
+    "static/js/2.56c0c59b.chunk.js.map": "/rick-and-morty-characters/static/js/2.56c0c59b.chunk.js.map",
+    "static/js/3.791f3a86.chunk.js": "/rick-and-morty-characters/static/js/3.791f3a86.chunk.js",
+    "static/js/3.791f3a86.chunk.js.map": "/rick-and-morty-characters/static/js/3.791f3a86.chunk.js.map",
+    "index.html": "/rick-and-morty-characters/index.html",
+    "static/css/main.4a4137e4.chunk.css.map": "/rick-and-morty-characters/static/css/main.4a4137e4.chunk.css.map",
+    "static/js/2.56c0c59b.chunk.js.LICENSE.txt": "/rick-and-morty-characters/static/js/2.56c0c59b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04d9518c.js",
+    "static/js/2.56c0c59b.chunk.js",
+    "static/css/main.4a4137e4.chunk.css",
+    "static/js/main.d1121f8e.chunk.js"
+  ]
+}
