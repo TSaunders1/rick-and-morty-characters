@@ -54,6 +54,7 @@ function App() {
       setStatus(status)
       setGender(gender)
       setSpecies(species)
+      setPageNum(1)
       setUserQuery(true)
       reset()
     }
