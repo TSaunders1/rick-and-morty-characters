@@ -61,12 +61,16 @@ function App() {
   }
 
   const clearSearch = () => {
-    setDisplayedCharacters([])
-    setPageNum(1)
-    setCharacterName("")
-    setStatus("")
-    setGender("")
-    setSpecies("")
+    if (characterName === "" && status === "" && gender === "" && species === "") {
+      reset()
+    } else {
+      setDisplayedCharacters([])
+      setPageNum(1)
+      setCharacterName("")
+      setStatus("")
+      setGender("")
+      setSpecies("")
+    }
   }
 
   const handleLoadMore = () => setPageNum((prev) => prev + 1)
