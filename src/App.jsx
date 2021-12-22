@@ -78,6 +78,7 @@ function App() {
     pastSearchSpecies
   ) => {
     setDisplayedCharacters([])
+    setPageNum(1)
     setCharacterName(pastSearchCharacterName)
     setStatus(pastSearchStatus)
     setGender(pastSearchGender)
