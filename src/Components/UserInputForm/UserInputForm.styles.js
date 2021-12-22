@@ -9,7 +9,21 @@ export const StyledSubmitButton = styled.button`
   border: black solid 1px;
   border-radius: 0.5rem;
   margin: 0.75rem;
-  margin-left: 5.3rem;
+  margin-left: 2.75rem;
+  &:hover {
+    cursor: pointer;
+  }
+`
+
+export const StyledClearButton = styled.button`
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  border: black solid 1px;
+  border-radius: 0.5rem;
+  margin: 0.75rem;
   &:hover {
     cursor: pointer;
   }

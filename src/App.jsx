@@ -60,6 +60,15 @@ function App() {
     }
   }
 
+  const clearSearch = () => {
+    setDisplayedCharacters([])
+    setPageNum(1)
+    setCharacterName("")
+    setStatus("")
+    setGender("")
+    setSpecies("")
+  }
+
   const handleLoadMore = () => setPageNum((prev) => prev + 1)
 
   const firePastSearch = (
@@ -81,6 +90,7 @@ function App() {
         handleSubmit={handleSubmit}
         onSubmit={onSubmit}
         register={register}
+        clearSearch={clearSearch}
       />
       <PastSearches
         pastSearches={pastSearches}

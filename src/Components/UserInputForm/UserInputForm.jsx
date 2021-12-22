@@ -8,9 +8,10 @@ import {
   LabelContainer,
   StyledInput,
   InputContainer,
+  StyledClearButton,
 } from "./UserInputForm.styles"
 
-const UserInputForm = ({ handleSubmit, onSubmit, register }) => (
+const UserInputForm = ({ handleSubmit, onSubmit, register, clearSearch }) => (
   <>
     <StyledFormDiv>
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -91,6 +92,9 @@ const UserInputForm = ({ handleSubmit, onSubmit, register }) => (
         <StyledSubmitButton type="submit" value="Submit">
           Search
         </StyledSubmitButton>
+        <StyledClearButton type="button" onClick={() => clearSearch()}>
+          Clear
+        </StyledClearButton>
       </form>
     </StyledFormDiv>
   </>
