@@ -90,7 +90,7 @@ function App() {
   }
   return (
     <>
-      <StyledTitle>Rick and Morty Characters!</StyledTitle>
+      <StyledTitle>Rick and Morty Charactopedia!</StyledTitle>
       <UserInputForm
         handleSubmit={handleSubmit}
         onSubmit={onSubmit}
